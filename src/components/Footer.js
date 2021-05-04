@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer id="main-footer">
       <div class="footer-content container">
-        <p>Copyright &copy; 2021. All Rights Reserved</p>
+        <p>Copyright &copy; {new Date().getFullYear()}</p>
         <div class="social">
           <i class="fab fa-twitter"></i>
           <i class="fab fa-facebook"></i>
