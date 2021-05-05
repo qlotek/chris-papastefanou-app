@@ -50,6 +50,7 @@ const Case5 = () => {
           </div>
         </div>
         <iframe
+          title="Promo video"
           width="840"
           height="473"
           src="https://www.youtube.com/embed/TsiZknioh70"

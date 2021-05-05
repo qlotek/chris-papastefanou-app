@@ -2,11 +2,11 @@ import React from 'react';
 
 const Error = () => {
   return (
-    <section id="contact-a" class="text-center py-3">
-      <div class="container">
-        <h2 class="section-title">Error 404</h2>
-        <div class="bottom-line"></div>
-        <p class="lead">Page does not exist!</p>
+    <section id="contact-a" className="text-center py-3">
+      <div className="container">
+        <h2 className="section-title">Error 404</h2>
+        <div className="bottom-line"></div>
+        <p className="lead">Page does not exist!</p>
       </div>
     </section>
   );

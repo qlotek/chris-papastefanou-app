@@ -3,10 +3,9 @@ import { NavLink } from 'react-router-dom';
 const Item = (props) => {
   return (
     <>
-      {/* <NavLink to={'/work/case' + props.number} */}
       <NavLink
         to={{
-          pathname: '/case' + props.number,
+          pathname: 'work/case' + props.number,
           aboutProps: {
             namn: 'Berban',
             titel: 'Bjarbin',

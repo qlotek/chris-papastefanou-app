@@ -2,14 +2,14 @@ import React from 'react';
 
 const Berban = () => {
   return (
-    <section id="contact-a" class="text-center py-3">
-      <div class="container">
-        <h2 class="section-title">Look ma, no hands</h2>
-        <div class="bottom-line"></div>
-        <p class="lead">Corporate branding</p>
+    <section id="contact-a" className="text-center py-3">
+      <div className="container">
+        <h2 className="section-title">Look ma, no hands</h2>
+        <div className="bottom-line"></div>
+        <p className="lead">Corporate branding</p>
       </div>
 
-      <div class="about">
+      <div className="about">
         <div>
           <h3>Assignment</h3>
           Apply end develop online brand
@@ -37,10 +37,10 @@ const Berban = () => {
         </div>
       </div>
 
-      <img src="../img/items/case2-1.jpg" alt="" class="case-image" />
-      <img src="../img/items/case2-2.jpg" alt="" class="case-image" />
-      <img src="../img/items/case2-3.jpg" alt="" class="case-image" />
-      <img src="../img/items/case2-4.jpg" alt="" class="case-image" />
+      <img src="../img/items/case2-1.jpg" alt="" className="case-image" />
+      <img src="../img/items/case2-2.jpg" alt="" className="case-image" />
+      <img src="../img/items/case2-3.jpg" alt="" className="case-image" />
+      <img src="../img/items/case2-4.jpg" alt="" className="case-image" />
     </section>
   );
 };

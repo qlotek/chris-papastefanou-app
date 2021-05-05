@@ -1,11 +1,8 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import React, { useState } from 'react';
 import './main.scss';
 import Header from './components/Header';
 import About from './components/About';
-import Item from './components/Item';
 import Footer from './components/Footer';
-
 import Home from './components/Home';
 import Work from './components/Work';
 import Contact from './components/Contact';
@@ -30,19 +27,19 @@ function App() {
           <Header />
           <Switch>
             <Route path="/" component={Home} exact />
-            <Route path="/about" component={About} />
-            <Route path="/work" component={Work} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/case1" component={Case1} />
-            <Route path="/case2" component={Case2} />
-            <Route path="/case3" component={Case3} />
-            <Route path="/case4" component={Case4} />
-            <Route path="/case5" component={Case5} />
-            <Route path="/case6" component={Case6} />
-            <Route path="/case7" component={Case7} />
-            <Route path="/case8" component={Case8} />
-            <Route path="/case9" component={Case9} />
-            <Route path="/caseone" component={Caseone} />
+            <Route path="/about" exact component={About} />
+            <Route path="/work" exact component={Work} />
+            <Route path="/contact" exact component={Contact} />
+            <Route path="/work/case1" exact component={Case1} />
+            <Route path="/work/case2" exact component={Case2} />
+            <Route path="/work/case3" exact component={Case3} />
+            <Route path="/work/case4" exact component={Case4} />
+            <Route path="//workcase5" exact component={Case5} />
+            <Route path="/work/case6" exact component={Case6} />
+            <Route path="/work/case7" exact component={Case7} />
+            <Route path="/work/case8" exact component={Case8} />
+            <Route path="/work/case9" exact component={Case9} />
+            <Route path="/caseone" exact component={Caseone} />
             <Route path="/bjarb" component={Contact} />
             <Route path="/yrb/berban" component={Berban} />
             <Route component={Error} />
