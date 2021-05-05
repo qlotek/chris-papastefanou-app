@@ -13,23 +13,23 @@ const Work = () => {
           <Item
             number="2"
             title="Look ma, no hands!"
-            category="Corporate Branding"
+            category="Brand Communication"
           />
           <Item number="3" title="Place your bets" category="UI/UX Design" />
           <Item
             number="5"
-            title="Predicting what happens next"
+            title="Guess what happens next?"
             category="Video Production"
           />
           <Item
             number="4"
             title="How are we doing on time?"
-            category="UX/UI Design + Frontend Development"
+            category="Frontend Development + UX/UI Design"
           />
           <Item
             number="6"
-            title="Step right up. ladies and gentlemen"
-            category="Visual and physical Design"
+            title="Step right up ladies and gentlemen"
+            category="Design of brand items"
           />
           <Item
             number="7"

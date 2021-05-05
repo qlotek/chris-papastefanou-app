@@ -3,11 +3,21 @@ import { NavLink } from 'react-router-dom';
 const Item = (props) => {
   return (
     <>
-      <NavLink to={'/work/case' + props.number} activeClassName="current">
+      {/* <NavLink to={'/work/case' + props.number} */}
+      <NavLink
+        to={{
+          pathname: '/case' + props.number,
+          aboutProps: {
+            namn: 'Berban',
+            titel: 'Bjarbin',
+          },
+        }}
+        activeClassName="current"
+      >
         {/* <a href=> */}
         <div className="item">
           <div className="item-image">
-            <img src={'img/items/item' + props.number + '.png'} />
+            <img src={'img/items/item' + props.number + '.png'} alt="" />
           </div>
 
           <div className="item-text">
