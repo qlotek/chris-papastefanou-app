@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import React, { useState } from 'react';
-import './main.css';
+import './main.scss';
 import Header from './components/Header';
 import About from './components/About';
 import Item from './components/Item';

@@ -1,0 +1,16 @@
+// Variables
+$website-width: 1280px;
+$main-color: #29325c;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #333;
+$bg-image: url('https://cdn.pixabay.com/photo/2020/07/06/01/33/sky-5375005_960_720.jpg');
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
