@@ -49,21 +49,21 @@ const About = () => {
         <div class="container">
           <h2 class="section-title">Technical Skills</h2>
           <div class="bottom-line"></div>
-          <h4>Photography:</h4>
+          <h4>HTML:</h4>
           <div class="progress">
-            <div style={{ width: 100 + '%' }}></div>
+            <div style={{ width: 90 + '%' }}></div>
           </div>
-          <h4>Adobe Photoshop:</h4>
+          <h4>CSS:</h4>
           <div class="progress">
-            <div style={{ width: 100 + '%' }}></div>
+            <div style={{ width: 90 + '%' }}></div>
           </div>
-          <h4>Adobe Illustrator:</h4>
+          <h4>Javascript:</h4>
           <div class="progress">
-            <div style={{ width: 70 + '%' }}></div>
+            <div style={{ width: 50 + '%' }}></div>
           </div>
-          <h4>HTML / CSS:</h4>
+          <h4>React:</h4>
           <div class="progress">
-            <div style={{ width: 100 + '%' }}></div>
+            <div style={{ width: 10 + '%' }}></div>
           </div>
           <h4>Wordpress:</h4>
           <div class="progress">
