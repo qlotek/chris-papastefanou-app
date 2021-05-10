@@ -34,7 +34,7 @@ function App() {
             <Route path="/work/case2" exact component={Case2} />
             <Route path="/work/case3" exact component={Case3} />
             <Route path="/work/case4" exact component={Case4} />
-            <Route path="//workcase5" exact component={Case5} />
+            <Route path="/work/case5" exact component={Case5} />
             <Route path="/work/case6" exact component={Case6} />
             <Route path="/work/case7" exact component={Case7} />
             <Route path="/work/case8" exact component={Case8} />

@@ -1,65 +1,69 @@
-import React from 'react';
+import Backnavlink from './Backnavlink';
 
 const Case5 = () => {
   return (
-    <section id="cases" className="text-center py-3">
-      <div className="container">
-        <h2 className="section-title">Guess what happens next?</h2>
-        <div className="bottom-line"></div>
-        <p className="lead">Video production for promotional video</p>
-        <div className="about">
-          <div>
-            <h3>Assignment</h3>
-            Create video to promote and explain a Predictive Technology Product.
-            Within a week and on a minuscule budget…
-          </div>
+    <>
+      <Backnavlink title="Work" />
 
-          <div>
-            <h3>Role</h3>
-            UX/Brand Designer
+      <section id="cases" className="text-center py-3">
+        <div className="container">
+          <h2 className="section-title">Guess what happens next?</h2>
+          <div className="bottom-line"></div>
+          <p className="lead">Video production for promotional video</p>
+          <div className="about">
+            <div>
+              <h3>Assignment</h3>
+              Create video to promote and explain a Predictive Technology
+              Product. Within a week and on a minuscule budget…
+            </div>
+
+            <div>
+              <h3>Role</h3>
+              UX/Brand Designer
+            </div>
+            <div>
+              <h3>Contribution and process</h3>
+              <ul>
+                <li>
+                  Worked with stake holders to create three realistic
+                  applications of the technology, on which to base the story
+                </li>
+                <li>Created the product name “Proofecy”</li>
+                <li>Created storyboard and script</li>
+                <li>Acquired stock video and edited</li>
+                <li>
+                  Recorded the voice (
+                  <a href="https://papastefanou.com">
+                    because voice acting is my side gig
+                  </a>
+                  )
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>Skills and tools used</h3>
+              <ul>
+                <li>Product marketing</li>
+                <li>Storytelling</li>
+                <li>Copywriting</li>
+                <li>Storyboarding</li>
+                <li>Voice acting</li>
+                <li>Video editing/Final Cut Pro</li>
+              </ul>
+            </div>
           </div>
-          <div>
-            <h3>Contribution and process</h3>
-            <ul>
-              <li>
-                Worked with stake holders to create three realistic applications
-                of the technology, on which to base the story
-              </li>
-              <li>Created the product name “Proofecy”</li>
-              <li>Created storyboard and script</li>
-              <li>Acquired stock video and edited</li>
-              <li>
-                Recorded the voice (
-                <a href="https://papastefanou.com">
-                  because voice acting is my side gig
-                </a>
-                )
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3>Skills and tools used</h3>
-            <ul>
-              <li>Product marketing</li>
-              <li>Storytelling</li>
-              <li>Copywriting</li>
-              <li>Storyboarding</li>
-              <li>Voice acting</li>
-              <li>Video editing/Final Cut Pro</li>
-            </ul>
-          </div>
+          <iframe
+            title="Promo video"
+            width="840"
+            height="473"
+            src="https://www.youtube.com/embed/TsiZknioh70"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
-        <iframe
-          title="Promo video"
-          width="840"
-          height="473"
-          src="https://www.youtube.com/embed/TsiZknioh70"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

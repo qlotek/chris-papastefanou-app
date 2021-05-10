@@ -7,7 +7,7 @@ const Work = () => {
       <div className="container">
         <h2 className="section-title">My Work</h2>
         <div className="bottom-line"></div>
-        <p className="lead">Check out some of my projects</p>
+        <p className="lead">A potpourri of select projects</p>
         <div className="items">
           <Item number="1" title="Logistics" category="UX/UI Design" />
           <Item

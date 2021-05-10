@@ -36,12 +36,17 @@
     }
   }
 
+  .logo {
+    text-align: center;
+  }
+
   // Stack Grid Columns
   #home-a .specials,
   #home-b .stats,
   #home-c .process,
   #about-d .testimonials,
   #contact-b .contact-info,
+  #case-a .about-case,
   .items {
     grid-template-columns: 1fr;
   }

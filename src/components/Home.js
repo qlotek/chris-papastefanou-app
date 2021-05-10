@@ -3,11 +3,10 @@ import React from 'react';
 const home = () => {
   return (
     <>
-      Borban
       {/* Section A: Specialize */}
       <section id="home-a" className="text-center py-2">
         <div className="container">
-          <h2 className="section-title">I Specialize In</h2>
+          <h2 className="section-title">Stuff I do well</h2>
           <div className="bottom-line"></div>
           <p className="lead">
             Photography as well as creating digital masterpieces and UI/UX
@@ -15,8 +14,8 @@ const home = () => {
           </p>
           <div className="specials">
             <div>
-              <i className="fas fa-file-alt fa-2x"></i>
-              <h3>Concepting</h3>
+              <i className="fas fa-mobile-alt fa-2x"></i>
+              <h3>User Experience</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis, molestias repellat quibusdam adipisci quas sed ullam
@@ -24,8 +23,8 @@ const home = () => {
               </p>
             </div>
             <div>
-              <i className="fas fa-desktop fa-2x"></i>
-              <h3>UI/UX</h3>
+              <i className="fas fa-code fa-2x"></i>
+              <h3>Frontend Development</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis, molestias repellat quibusdam adipisci quas sed ullam
@@ -33,8 +32,8 @@ const home = () => {
               </p>
             </div>
             <div>
-              <i className="fas fa-object-ungroup fa-2x"></i>
-              <h3>Visual Design</h3>
+              <i className="fas fa-lightbulb fa-2x"></i>
+              <h3>Strategy</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis, molestias repellat quibusdam adipisci quas sed ullam
@@ -43,7 +42,7 @@ const home = () => {
             </div>
             <div>
               <i className="fas fa-thumbs-up fa-2x"></i>
-              <h3>Interaction</h3>
+              <h3>Awesomeness</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis, molestias repellat quibusdam adipisci quas sed ullam
@@ -54,7 +53,7 @@ const home = () => {
         </div>
       </section>
       {/* Section B: Stats */}
-      <section id="home-b" className="text-center py-2">
+      {/* <section id="home-b" className="text-center py-2">
         <div className="stats">
           <div>
             <ul>
@@ -93,60 +92,7 @@ const home = () => {
             </ul>
           </div>
         </div>
-      </section>
-      {/* Section C: Process */}
-      <section id="home-c" className="text-center py-2">
-        <div className="container">
-          <h2 className="section-title">My Creative Process</h2>
-          <div className="bottom-line"></div>
-          <p className="lead">
-            All of my UI/UX and design projects are based off of a practiced
-            formula to get the result that I am looking for
-          </p>
-          <div className="process">
-            <div>
-              <i className="fas fa-file-alt fa-4x process-icon my-2">
-                <div className="process-step">1</div>
-              </i>
-              <h3>Discuss The Project</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                voluptas laborum repellendus dolorum! Harum, cupiditate.
-              </p>
-            </div>
-            <div>
-              <i className="fas fa-desktop fa-4x process-icon my-2">
-                <div className="process-step">2</div>
-              </i>
-              <h3>Brainstorming ^ Concept</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                voluptas laborum repellendus dolorum! Harum, cupiditate.
-              </p>
-            </div>
-            <div>
-              <i className="fas fa-object-ungroup fa-4x process-icon my-2">
-                <div className="process-step">3</div>
-              </i>
-              <h3>UI/UX Planning</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                voluptas laborum repellendus dolorum! Harum, cupiditate.
-              </p>
-            </div>
-            <div>
-              <i className="fas fa-thumbs-up fa-4x process-icon my-2">
-                <div className="process-step">4</div>
-              </i>
-              <h3>Interaction</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                voluptas laborum repellendus dolorum! Harum, cupiditate.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      </section> */}
     </>
   );
 };

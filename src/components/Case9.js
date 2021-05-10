@@ -1,11 +1,15 @@
-import React from 'react';
+import Backnavlink from './Backnavlink';
 
 const Case9 = () => {
   return (
-    <div>
-      <h1>Case 9</h1>
-      <p></p>
-    </div>
+    <>
+      <Backnavlink title="Work" />
+
+      <div>
+        <h1>Case 9</h1>
+        <p></p>
+      </div>
+    </>
   );
 };
 

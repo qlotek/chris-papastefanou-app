@@ -361,7 +361,7 @@
       border-radius: 50%;
       margin-right: 0.5rem; }
   
-  #contact-a .text-fields {
+/*   #contact-a .text-fields {
     display: grid;
     grid-template-areas: 'name email' 'subject phone' 'message message';
     grid-gap: 1.2rem;
@@ -378,15 +378,15 @@
       grid-area: message;
       height: 100px; }
     #contact-a .text-fields .text-input {
-      padding: 0.5rem 1rem; }
+      padding: 0.5rem 1rem; } 
   
   #contact-a button[type='submit'] {
-    width: 50%; }
+    width: 50%; } */
   
-  #contact-b .contact-info {
+  #contact-a .contact-info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    text-align: center; }
+    text-align: left; }
   
   #contact-c h1 {
     text-align: center;

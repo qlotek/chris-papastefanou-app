@@ -15,9 +15,14 @@ const Header = () => {
       <header id={theHeaderId}>
         <div className="container">
           <nav id="main-nav">
-            <NavLink to="/" exact>
-              <img src="img/logo.png" alt="Chris" id="logo" />
-            </NavLink>
+            {/* <img src="img/logo.png" alt="Chris" id="logo" /> */}
+            <div className="logo">
+              <NavLink to="/" exact>
+                <h2>Chris Papastefanou</h2>
+                <h3> UX | Frontend | Strategy | Awesomeness</h3>
+              </NavLink>
+            </div>
+
             <ul>
               <li>
                 <NavLink to="/" activeClassName="current" exact>
@@ -25,7 +30,7 @@ const Header = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/work" activeClassName="current" exact>
+                <NavLink to="/work" activeClassName="current">
                   Work
                 </NavLink>
               </li>
@@ -36,6 +41,12 @@ const Header = () => {
               </li>
             </ul>
           </nav>
+          <div className="header-content">
+            <p className="catch-phrase">
+              I make Business, Technology and People enjoy each other’s company.
+            </p>
+            <p className="lead"></p>
+          </div>
         </div>
       </header>
     </>
