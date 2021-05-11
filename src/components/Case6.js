@@ -5,23 +5,27 @@ const Case6 = (props) => {
     <>
       <Backnavlink title="Work" />
 
-      <section id="cases" className="text-center py-3">
+      <section id="case-a" className="text-center py-3">
         <div className="container">
           <h2 className="section-title">Step right up ladies and gentlemen</h2>
           <div className="bottom-line"></div>
-          <p className="lead">Design of brand items</p>
-          <div className="about">
+          <p className="lead">Visual Design</p>
+          <div className="about-case">
             <div>
+              <i class="fas fa-flag"></i>
               <h3>Assignment</h3>
               Create theme and design branding material for exhibitions.
             </div>
 
             <div>
+              <i class="fas fa-user-alt"></i>
               <h3>Role</h3>
               UX/Brand Designer
             </div>
             <div>
+              <i class="fas fa-pen-nib"></i>
               <h3>Contribution and process</h3>
+
               <ul>
                 <li>Ideation for Theme</li>
                 <li>
@@ -36,7 +40,9 @@ const Case6 = (props) => {
               </ul>
             </div>
             <div>
+              <i class="fas fa-tools"></i>
               <h3>Skills and tools used</h3>
+
               <ul>
                 <li>Design Leadership</li>
                 <li>Visual Design</li>

@@ -7,7 +7,7 @@ const Case3 = () => {
 
       <section id="case-a" className="text-center py-3">
         <div className="container">
-          <h2 className="section-title">Place your bets</h2>
+          <h2 className="section-title">The Umpire Strikes Back</h2>
           <div className="bottom-line"></div>
           <p className="lead">
             UX/UI Design for Tennis Scoreboard for online betting app

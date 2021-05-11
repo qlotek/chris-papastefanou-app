@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       {/* Section A: Contact Form */}
-      <section id="contact-a" className="text-center py-3">
+      <section id="contact-b" className="text-center py-3 contact-info">
         <div className="container">
           <h2 className="section-title">Contact Me</h2>
           <div className="bottom-line"></div>

@@ -9,13 +9,21 @@ const Work = () => {
         <div className="bottom-line"></div>
         <p className="lead">A potpourri of select projects</p>
         <div className="items">
-          <Item number="1" title="Logistics" category="UX/UI Design" />
+          <Item
+            number="1"
+            title="There's a package for you!"
+            category="UX/UI Design"
+          />
           <Item
             number="2"
             title="Look ma, no hands!"
             category="Brand Communication"
           />
-          <Item number="3" title="Place your bets" category="UI/UX Design" />
+          <Item
+            number="3"
+            title="The Umpire Strikes Back"
+            category="UI/UX Design"
+          />
           <Item
             number="5"
             title="Guess what happens next?"
@@ -24,12 +32,12 @@ const Work = () => {
           <Item
             number="4"
             title="How are we doing on time?"
-            category="Frontend Development + UX/UI Design"
+            category="Frontend Dev + UX/UI Design"
           />
           <Item
             number="6"
             title="Step right up ladies and gentlemen"
-            category="Design of brand items"
+            category="Visual Design"
           />
           <Item
             number="7"
@@ -41,7 +49,11 @@ const Work = () => {
             title="How many likes did you get?"
             category="Employee Engagement"
           />
-          <Item number="9" title="XXXXXX" category="XXXXXX" />
+          <Item
+            number="9"
+            title="Place your bets..."
+            category="Conceptual design"
+          />
         </div>
       </div>
     </section>

@@ -15,7 +15,6 @@ const Header = () => {
       <header id={theHeaderId}>
         <div className="container">
           <nav id="main-nav">
-            {/* <img src="img/logo.png" alt="Chris" id="logo" /> */}
             <div className="logo">
               <NavLink to="/" exact>
                 <h2>Chris Papastefanou</h2>
@@ -45,7 +44,12 @@ const Header = () => {
             <p className="catch-phrase">
               I make Business, Technology and People enjoy each other’s company.
             </p>
-            <p className="lead"></p>
+            <br />
+            <p className="lead">
+              <a href="/work" className="btn-light">
+                See some of my work
+              </a>
+            </p>
           </div>
         </div>
       </header>

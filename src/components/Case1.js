@@ -6,7 +6,7 @@ const Case1 = () => {
       <Backnavlink title="Work" />
       <section id="case-a" className="text-center py-3">
         <div className="container">
-          <h2 className="section-title">Click, there it is!</h2>
+          <h2 className="section-title">There's a package for you!</h2>
           <div className="bottom-line"></div>
           <p className="lead">
             UX design and conceptual UI Design for logistics company
@@ -49,7 +49,8 @@ const Case1 = () => {
         <div className="container">
           <div className="img-frame">
             <img src="../img/items/case1-1.jpg" alt="" className="case-image" />
-            <p>Erb Erban Arban</p>
+            Conceptual design screenshots - anonymized and rebranded due to
+            client confidentiality.
           </div>
           <img src="../img/items/case1-2.jpg" alt="" className="case-image" />
 

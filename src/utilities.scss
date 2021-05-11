@@ -25,19 +25,22 @@
   transition: all 0.5s;
   border: none;
   cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
 .btn {
   &-main {
     @extend %btn-shared;
     color: #333;
-    background-color: $main-color;
+    background-color: $secondary-color;
   }
 
   &-light {
     @extend %btn-shared;
     color: #333;
-    background-color: $light-color;
+    background-color: $background-color;
   }
 
   &-dark {
@@ -50,7 +53,9 @@
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: $main-color;
+  background-color: $secondary-color;
+  color: $font-color;
+  text-decoration: none;
 }
 
 // Backgrounds

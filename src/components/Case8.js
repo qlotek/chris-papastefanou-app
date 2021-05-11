@@ -13,21 +13,24 @@ const Case8 = () => {
 
           <div className="about-case">
             <div>
+              <i class="fas fa-flag"></i>
               <h3>Assignment</h3>
-              Increase employee engagement in the company's Instagram channel
+              Increase employee engagement in the company's Instagram channel.
+              Solution was displaying the company's Instagram on a vintage slot
+              machine in the lunch room.
             </div>
 
             <div>
+              <i class="fas fa-user-alt"></i>
               <h3>Role</h3>
               The guy with the crazy ideas, who's willing to execute them.
             </div>
             <div>
+              <i class="fas fa-pen-nib"></i>
               <h3>Contribution and process</h3>
+
               <ul>
-                <li>
-                  Ideation: the company's Instagram on a vintage slot machine in
-                  the lunch room.{' '}
-                </li>
+                <li>Ideation</li>
                 <li>
                   Engaged hardware engineering in refurbishing the machine into
                   working condition.
@@ -37,7 +40,9 @@ const Case8 = () => {
               </ul>
             </div>
             <div>
+              <i class="fas fa-tools"></i>
               <h3>Skills and tools used</h3>
+
               <ul>
                 <li>Brain storming</li>
                 <li>Design sprint</li>

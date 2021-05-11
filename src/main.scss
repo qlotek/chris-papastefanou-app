@@ -10,8 +10,9 @@
 
 body {
   font-family: Roboto, sans-serif;
-  line-height: 1.6;
-  background: #fff;
+  line-height: 1.4;
+  background: $background-color;
+  color: $font-color;
 }
 
 a {
@@ -51,7 +52,7 @@ img {
 
   a:hover {
     color: #fff;
-    text-decoration: no;
+    text-decoration: none;
   }
 }
 
@@ -77,11 +78,11 @@ img {
       transition: border-color 0.5s;
 
       &:hover {
-        border-color: $medium-color;
+        border-color: $secondary-color;
       }
 
       &.current {
-        border-color: $main-color;
+        border-color: $secondary-color;
       }
     }
   }
@@ -97,10 +98,12 @@ img {
   // Header Home
   &-home {
     background: $bg-image no-repeat center right / cover;
-    height: 30rem;
+    height: 28rem;
     color: #fff;
 
-    #main-nav .logo {
+    #main-nav .logo a:hover,
+    #main-nav .logo a:active {
+      text-decoration: none;
     }
 
     // Header Content
@@ -372,7 +375,8 @@ img {
     }*/
   }
 
-  &-a {
+  &-a,
+  &-b {
     .contact-info {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -429,7 +433,7 @@ img {
 
 // Footer
 #main-footer {
-  background: $dark-color;
+  background: $main-color;
   color: #fff;
   height: 5rem;
 
