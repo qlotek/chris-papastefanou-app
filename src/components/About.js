@@ -57,7 +57,7 @@ const About = () => {
           <div className="progress">
             <div style={{ width: 90 + '%' }}></div>
           </div>
-          <h4>Javascript:</h4>
+          <h4>Java script:</h4>
           <div className="progress">
             <div style={{ width: 50 + '%' }}></div>
           </div>
