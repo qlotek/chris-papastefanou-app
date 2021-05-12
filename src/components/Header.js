@@ -46,9 +46,9 @@ const Header = () => {
             </p>
             <br />
             <p className="lead">
-              <a href="/work" className="btn-light">
+              <NavLink to="/work" className="btn-light">
                 See some of my work
-              </a>
+              </NavLink>
             </p>
           </div>
         </div>
