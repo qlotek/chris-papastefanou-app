@@ -90,11 +90,6 @@ img {
 
 // Header
 #header {
-  &-home,
-  &-inner {
-    #main-nav .logo {
-    }
-  }
   // Header Home
   &-home {
     background: $bg-image no-repeat center right / cover;
@@ -335,46 +330,41 @@ img {
   }
 }
 
-// Contact Page
-#contact {
+// Resume Page
+#resume {
   &-a {
-    /* .text-fields {
-      display: grid;
-      grid-template-areas:
-        'name email'
-        'subject phone'
-        'message message';
-      grid-gap: 1.2rem;
-      margin-bottom: 1.2rem;
-
-      // Grid Areas
-      .name-input {
-        grid-area: name;
-      }
-      .subject-input {
-        grid-area: subject;
-      }
-      .email-input {
-        grid-area: email;
-      }
-      .phone-input {
-        grid-area: phone;
-      }
-      .message-input {
-        grid-area: message;
-        height: 100px;
-      }
-
-      .text-input {
-        padding: 0.5rem 1rem;
-      }
-    } 
-
-    button[type='submit'] {
-      width: 50%;
-    }*/
+    background-color: $blueish;
+    color: set-text-color($blueish);
   }
 
+  &-b {
+    background-color: $redish;
+    color: set-text-color($blueish);
+  }
+
+  &-c {
+    background-color: $lightgrayish;
+    color: set-text-color($lightgrayish);
+  }
+
+  &-d {
+    background-color: $greenish;
+    color: set-text-color($greenish);
+  }
+
+  &-e {
+    background-color: $yellowish;
+    color: set-text-color($yellowish);
+  }
+
+  &-f {
+    background-color: $redish;
+    color: set-text-color($blueish);
+  }
+}
+
+// Contact Page
+#contact {
   &-a,
   &-b {
     .contact-info {

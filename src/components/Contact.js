@@ -6,7 +6,7 @@ const Contact = () => {
       {/* Section A: Contact Form */}
       <section id="contact-b" className="text-center py-3 contact-info">
         <div className="container">
-          <h2 className="section-title">Contact Me</h2>
+          <h2 className="section-title">Contact</h2>
           <div className="bottom-line"></div>
           <p className="lead">Gimme a shout</p>
 
