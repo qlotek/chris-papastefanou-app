@@ -17,8 +17,7 @@ import Case6 from './components/Case6';
 import Case7 from './components/Case7';
 import Case8 from './components/Case8';
 import Case9 from './components/Case9';
-import Berban from './components/Berban';
-import Caseone from './components/Caseone';
+import Cases from './components/Cases';
 
 function App() {
   return (
@@ -41,9 +40,7 @@ function App() {
             <Route path="/work/case7" exact component={Case7} />
             <Route path="/work/case8" exact component={Case8} />
             <Route path="/work/case9" exact component={Case9} />
-            <Route path="/caseone" exact component={Caseone} />
-            <Route path="/bjarb" component={Contact} />
-            <Route path="/yrb/berban" component={Berban} />
+            <Route path="/cases" exact component={Cases} />
             <Route component={Error} />
           </Switch>
         </div>

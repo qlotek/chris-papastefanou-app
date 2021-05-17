@@ -93,6 +93,7 @@ img {
   // Header Home
   &-home {
     background: $bg-image no-repeat center right / cover;
+    background-color: $main-color;
     height: 28rem;
     color: #fff;
 
@@ -331,13 +332,27 @@ img {
 }
 
 // Resume Page
+
+%work-shared {
+  div div {
+    text-align: left;
+    padding: 0.5rem;
+  }
+
+  div div:first-child {
+    text-align: right;
+  }
+}
+
 #resume {
   &-a {
+    @extend %work-shared;
     background-color: $blueish;
     color: set-text-color($blueish);
   }
 
   &-b {
+    @extend %work-shared;
     background-color: $redish;
     color: set-text-color($blueish);
   }
@@ -358,7 +373,7 @@ img {
   }
 
   &-f {
-    background-color: $redish;
+    background-color: $azureish;
     color: set-text-color($blueish);
   }
 }
