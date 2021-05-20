@@ -33,11 +33,13 @@ ul {
 }
 
 h1,
-h2,
-h3,
-h4 {
+h2 {
   text-transform: uppercase;
   font-family: Dosis;
+}
+
+h3 {
+  font-size: 1rem;
 }
 
 img {
@@ -332,6 +334,17 @@ img {
 }
 
 // Resume Page
+%resume-shared {
+  h2 {
+    margin-bottom: 30px;
+  }
+}
+
+%icon-grid-shared {
+  div > div > div {
+    margin: 0 0 20px 0;
+  }
+}
 
 %work-shared {
   div div {
@@ -342,39 +355,99 @@ img {
   div div:first-child {
     text-align: right;
   }
+
+  p {
+    margin-bottom: 10px;
+  }
+  li {
+    display: inline;
+    opacity: 0.7;
+  }
+
+  li::after {
+    content: '|';
+    margin: 10px;
+  }
+
+  li:last-child:after {
+    content: '';
+    margin: 10px;
+  }
 }
 
 #resume {
-  &-a {
+  &-work-experience {
     @extend %work-shared;
     background-color: $blueish;
     color: set-text-color($blueish);
   }
 
-  &-b {
+  &-skills {
+    @extend %resume-shared;
+    background-color: $azureish;
+    color: set-text-color($blueish);
+
+    div > div {
+      margin: 0 auto;
+      width: 95%;
+      max-width: calc(#{$website-width * 0.5});
+    }
+  }
+
+  &-side-gig {
+    @extend %resume-shared;
     @extend %work-shared;
     background-color: $redish;
     color: set-text-color($blueish);
   }
 
-  &-c {
+  &-industry-experience {
+    @extend %resume-shared;
+    @extend %icon-grid-shared;
     background-color: $lightgrayish;
     color: set-text-color($lightgrayish);
   }
 
-  &-d {
+  &-education {
+    @extend %resume-shared;
     background-color: $greenish;
     color: set-text-color($greenish);
+    h2 {
+      margin-bottom: 0;
+      text-align: center;
+    }
+
+    h2 + p {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    h3 {
+      margin-top: 15px;
+    }
+
+    p {
+      text-align: left;
+    }
   }
 
-  &-e {
+  &-spare-time {
+    @extend %resume-shared;
+    @extend %icon-grid-shared;
+
     background-color: $yellowish;
     color: set-text-color($yellowish);
   }
 
-  &-f {
+  &-personal-motto {
+    @extend %resume-shared;
     background-color: $azureish;
     color: set-text-color($blueish);
+
+    blockquote {
+      font-size: 1.5rem;
+      font-style: italic;
+    }
   }
 }
 
