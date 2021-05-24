@@ -121,7 +121,10 @@ const Resume = () => {
         <div className="container">
           <h2>Skills</h2>
           <div>
-            <img src="img/swiss-army-knife.png" />
+            <img
+              src="img/swiss-army-knife.png"
+              alt="Swiss army knife: UX Design, Frontend Development, Strategy, Service Design, Business Analysis, Training, Workshop Facilitation"
+            />
           </div>
         </div>
       </section>
