@@ -8,7 +8,7 @@ $font-color: #333;
 $dark-color: #333;
 $bg-image: url('https://cdn.pixabay.com/photo/2021/05/03/10/12/buttercup-6225833_960_720.jpg');
 
-// Buttercup Color scheme
+// Buttercup Color scheme //////////////////////////
 $bg-image: url('https://papastefanou.com/wp-content/uploads/2021/05/buttercup.jpg');
 
 $main-color: #478e12; // Slimy Green
@@ -16,6 +16,34 @@ $color2: #174603; // Lincoln Green
 $color3: #ffd30b; // Cyber Yellow
 $secondary-color: #f9c10a; // Golden Poppy
 $background-color: #fffcf9; // Baby Powder
+
+// Buttercup Garden Color Scheme //////////////////////////
+// https://coolors.co/194b00-498e0d-fed50a-ba3b46-34252f
+// Color definitions
+$bg-image: url('https://papastefanou.com/wp-content/uploads/2021/05/buttercup.jpg');
+$lincoln-green: #194b00ff;
+$slimy-green: #498e0dff;
+$cyber-yellow: #fed50aff;
+$french-raspberry: #ba3b46ff;
+$black-coffee: #34252fff;
+$baby-powder: #fffcf9;
+
+// Color assignments
+$main-color: $slimy-green;
+$accent-color: $baby-powder;
+$canvas-background-color: $black-coffee;
+$body-background-color: $baby-powder;
+$icon-color: $main-color;
+$button-color: $cyber-yellow;
+
+//////////////////////////////////////////////
+
+// Apple Bloom scheme
+/* $bg-image: url('https://papastefanou.com/wp-content/uploads/2021/05/flora-3787896_1920.jpg'); */
+
+// Misc
+/* $bg-image: url('https://papastefanou.com/wp-content/uploads/2021/05/chocolate-5177588.jpg');
+$header-font-color: #fff; */
 
 // Links
 $link-color: #1a5b9e;

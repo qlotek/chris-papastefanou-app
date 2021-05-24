@@ -34,7 +34,7 @@
   &-main {
     @extend %btn-shared;
     color: #333;
-    background-color: $secondary-color;
+    background-color: $button-color;
   }
 
   &-light {
@@ -53,8 +53,8 @@
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: $secondary-color;
-  color: $font-color;
+  background-color: $main-color;
+  color: $baby-powder;
   text-decoration: none;
 }
 
@@ -119,14 +119,14 @@ input[class^='btn-']:hover {
   }
 }
 
-.section-title {
+/* .section-title {
   font-size: 2rem;
   display: block;
   padding-bottom: 0.5rem;
   text-align: center;
   font-weight: 100;
   text-transform: uppercase;
-}
+} */
 
 .bottom-line {
   height: 2px;

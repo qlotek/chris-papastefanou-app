@@ -29,6 +29,12 @@ const Header = () => {
                 </NavLink>
               </li>
               <li>
+                <NavLink to="/resume" activeClassName="current">
+                  CV/Resume
+                </NavLink>
+              </li>
+
+              <li>
                 <NavLink to="/work" activeClassName="current">
                   Work
                 </NavLink>
@@ -46,7 +52,7 @@ const Header = () => {
             </p>
             <br />
             <p className="lead">
-              <NavLink to="/work" className="btn-light">
+              <NavLink to="/work" className="btn-main">
                 See some of my work
               </NavLink>
             </p>

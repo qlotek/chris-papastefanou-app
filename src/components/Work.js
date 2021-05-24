@@ -5,7 +5,7 @@ const Work = () => {
   return (
     <section id="work-a" className="text-center py-3">
       <div className="container">
-        <h2 className="section-title">My Work</h2>
+        <h2 className="section-title">Some of my Work</h2>
         <div className="bottom-line"></div>
         <p className="lead">A potpourri of select projects</p>
         <div className="items">

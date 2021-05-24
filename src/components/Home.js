@@ -6,8 +6,8 @@ const home = () => {
       {/* Section A: Specialize */}
       <section id="home-a" className="text-center py-2">
         <div className="container">
-          <h2 className="section-title">Stuff I do well</h2>
-          <div className="bottom-line"></div>
+          {/* <h2 className="section-title">Stuff I do well</h2>
+          <div className="bottom-line"></div> */}
           <p className="lead">
             Trailblazing Senior UX and Frontend Guy, with 20+ years of
             experience from all over the business, leaving a multitude of global

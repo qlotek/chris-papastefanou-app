@@ -21,18 +21,15 @@
   }
 
   #header {
-    &-home {
+    &-home,
+    &-inner {
       height: 10rem;
       border-bottom: 3px solid $main-color;
-      background-position: 20% 30%;
+      background-position: 20% 5%;
 
       .header-content {
         display: none;
       }
-    }
-
-    &-inner {
-      height: 10rem;
     }
   }
 
@@ -73,6 +70,36 @@
     }
   }
 
+  // Resume
+
+  #resume-work-experience,
+  #resume-side-gig {
+    .cols {
+      display: block;
+    }
+
+    div div:first-child {
+      text-align: left;
+    }
+
+    li {
+      display: block;
+    }
+    li::after {
+      content: '';
+      margin: 10px;
+    }
+  }
+  #resume-education {
+    .cols {
+      display: block;
+    }
+
+    div + div {
+      margin-top: 30px;
+    }
+  }
+
   // About
   #about {
     &-a {
@@ -108,7 +135,7 @@
       div {
         margin-bottom: 1rem;
         padding-bottom: 1rem;
-        border-bottom: 1px #555 solid;
+        border-bottom: 1px #ccc solid;
 
         .bottom-line {
           padding: 0;
@@ -141,6 +168,30 @@
   }
 }
 
+// Even smaller phones)
+@media (max-width: 400px) {
+  #main-nav {
+    ul {
+      li {
+        padding: 1rem 0.5rem;
+      }
+    }
+  }
+}
+
+// Even even smaller phones)
+@media (max-width: 350px) {
+  #main-nav {
+    ul {
+      font-size: 0.9rem;
+      background-color: rgba($color: #000000, $alpha: 0.6);
+
+      li {
+        padding: 1rem 0.5rem;
+      }
+    }
+  }
+}
 // Landscape
 @media (max-height: 580px) {
   #header-home {

@@ -31,11 +31,11 @@ const Contact = () => {
       </section>
 
       {/* Section C: Tagline  */}
-      <section id="contact-c" className="bg-main py-4">
+      {/*  <section id="contact-c" className="bg-main py-4">
         <div className="container">
           <h1>Don't be a stranger</h1>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };

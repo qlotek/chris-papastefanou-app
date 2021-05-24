@@ -68,7 +68,7 @@ const Resume = () => {
                 <li>Frontend development</li>
                 <li>Accessibility</li>
                 <li>Usability</li>
-                <li>UX design</li>
+                <li>UXdesign</li>
                 <li>SEO</li>
               </ul>
             </div>
@@ -83,13 +83,13 @@ const Resume = () => {
             <div>
               <p>
                 Development of web interfaces and interaction design for public
-                websites and intranet at mid-size company..
+                websites and intranet at mid-size company.
               </p>
               <ul>
                 <li>Frontend development</li>
                 <li>Usability</li>
                 <li>Accessibility</li>
-                <li>UX Design</li>
+                <li>UXDesign</li>
                 <li>SEO</li>
                 <li>Business analysis</li>
               </ul>
@@ -131,8 +131,8 @@ const Resume = () => {
           <h2>Side gig</h2>
           <div className="cols cols-two">
             <div>
-              Voice Actor Freelance
-              <br /> Los Angeles, Göteborg, Stockholm <br />
+              <h3>Voice Actor</h3>
+              Los Angeles/Göteborg/Stockholm <br />
               1994 – Present
             </div>
             <div>
