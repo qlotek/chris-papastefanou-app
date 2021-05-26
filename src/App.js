@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Work from './components/Work';
 import Resume from './components/Resume';
+import Printresume from './components/Printresume';
 import Contact from './components/Contact';
 import Error from './components/Error';
 import Case1 from './components/Case1';
@@ -20,27 +21,35 @@ import Case9 from './components/Case9';
 import Cases from './components/Cases';
 
 function App() {
+  const pathname = window.location.pathname; //returns the current url minus the domain name
+  console.log('pathname: ' + pathname);
+  let addedClass = '';
+  if (pathname === '/printresume') {
+    addedClass = 'print';
+  } else addedClass = '';
+  console.log('addedClass: ' + addedClass);
   return (
-    <div className="App">
+    <div className={'App ' + addedClass}>
       <BrowserRouter>
         <div>
           <Header />
           <Switch>
-            <Route path="/" component={Home} exact />
-            <Route path="/about" exact component={About} />
-            <Route path="/work" exact component={Work} />
-            <Route path="/resume" exact component={Resume} />
-            <Route path="/contact" exact component={Contact} />
-            <Route path="/work/case1" exact component={Case1} />
-            <Route path="/work/case2" exact component={Case2} />
-            <Route path="/work/case3" exact component={Case3} />
-            <Route path="/work/case4" exact component={Case4} />
-            <Route path="/work/case5" exact component={Case5} />
-            <Route path="/work/case6" exact component={Case6} />
-            <Route path="/work/case7" exact component={Case7} />
-            <Route path="/work/case8" exact component={Case8} />
-            <Route path="/work/case9" exact component={Case9} />
-            <Route path="/cases" exact component={Cases} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/work" component={Work} />
+            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/printresume" component={Printresume} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/work/case1" component={Case1} />
+            <Route exact path="/work/case2" component={Case2} />
+            <Route exact path="/work/case3" component={Case3} />
+            <Route exact path="/work/case4" component={Case4} />
+            <Route exact path="/work/case5" component={Case5} />
+            <Route exact path="/work/case6" component={Case6} />
+            <Route exact path="/work/case7" component={Case7} />
+            <Route exact path="/work/case8" component={Case8} />
+            <Route exact path="/work/case9" component={Case9} />
+            <Route exact path="/cases" component={Cases} />
             <Route component={Error} />
           </Switch>
         </div>

@@ -1,0 +1,35 @@
+@import 'config';
+
+.print {
+  header#header-inner {
+    background: none;
+    border-bottom: none;
+    background-color: $main-color;
+    height: 11rem;
+
+    #main-nav {
+      display: block;
+
+      .logo {
+        text-align: center;
+
+        h2 {
+          font-size: 4rem;
+        }
+
+        h3 {
+          font-size: 2rem;
+          font-weight: normal;
+        }
+      }
+
+      ul {
+        display: none;
+      }
+    }
+  }
+
+  footer {
+    display: none;
+  }
+}

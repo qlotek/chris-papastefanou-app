@@ -1,6 +1,7 @@
 @import 'config';
 @import 'utilities';
 @import 'item_grid';
+@import 'print_resume';
 
 // General Styles
 * {
@@ -89,7 +90,7 @@ img {
   }
 }
 
-// Header
+//
 
 %header-text-shared {
   color: #fff;
@@ -426,8 +427,8 @@ img {
 
   &-skills {
     @extend %resume-shared;
-    background-color: $cyber-yellow;
-    color: set-text-color($cyber-yellow);
+    background-color: $saffron;
+    color: set-text-color($saffron);
 
     div > div {
       margin: 0 auto;
@@ -439,21 +440,21 @@ img {
   &-side-gig {
     @extend %resume-shared;
     @extend %work-shared;
-    background-color: $french-raspberry;
-    color: set-text-color($french-raspberry);
+    background-color: $indian-red;
+    color: $light-text-color;
   }
 
   &-industry-experience {
     @extend %resume-shared;
     @extend %icon-grid-shared;
     background-color: $black-coffee;
-    color: set-text-color($black-coffee);
+    color: $light-text-color;
   }
 
   &-education {
     @extend %resume-shared;
-    background-color: $slimy-green;
-    color: set-text-color($slimy-green);
+    background-color: $olive-drab-3;
+    color: $light-text-color;
     h2 {
       margin-bottom: 0;
       text-align: center;
@@ -477,18 +478,32 @@ img {
     @extend %resume-shared;
     @extend %icon-grid-shared;
 
-    background-color: $french-raspberry;
-    color: set-text-color($french-raspberry);
+    background-color: $indian-red;
+    color: $light-text-color;
   }
 
   &-personal-motto {
     @extend %resume-shared;
-    background-color: $cyber-yellow;
-    color: set-text-color($cyber-yellow);
+    background-color: $saffron;
+    color: $dark-text-color;
 
     blockquote {
       font-size: 1.5rem;
       font-style: italic;
+    }
+  }
+  &-connect {
+    @extend %resume-shared;
+    background-color: $black-coffee;
+    color: set-text-color($black-coffee);
+    .connect {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      text-align: center;
+
+      a {
+        color: #fff;
+      }
     }
   }
 }
@@ -499,12 +514,17 @@ img {
   &-b {
     .contact-info {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       text-align: center;
     }
 
-    .fas {
+    .fas,
+    .fab {
       color: $icon-color;
+    }
+
+    a {
+      color: $font-color;
     }
   }
 

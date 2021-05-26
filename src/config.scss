@@ -18,23 +18,30 @@ $secondary-color: #f9c10a; // Golden Poppy
 $background-color: #fffcf9; // Baby Powder
 
 // Buttercup Garden Color Scheme //////////////////////////
-// https://coolors.co/194b00-498e0d-fed50a-ba3b46-34252f
+// https://coolors.co/398201-3d405b-e6b82d-d54f54-34252f-cccccc
 // Color definitions
 $bg-image: url('https://papastefanou.com/wp-content/uploads/2021/05/buttercup.jpg');
 $lincoln-green: #194b00ff;
-$slimy-green: #498e0dff;
-$cyber-yellow: #fed50aff;
-$french-raspberry: #ba3b46ff;
+$independence: #3d405b;
+//$slimy-green: #498e0dff;
+$olive-drab-3: #738c0c;
+//$india-green: #398201;
+//$cyber-yellow: #fed50aff;
+$saffron: #e6b82d;
+//$french-raspberry: #ba3b46ff;
+$indian-red: #d54f54;
 $black-coffee: #34252fff;
 $baby-powder: #fffcf9;
 
 // Color assignments
-$main-color: $slimy-green;
+$main-color: $olive-drab-3;
 $accent-color: $baby-powder;
 $canvas-background-color: $black-coffee;
 $body-background-color: $baby-powder;
 $icon-color: $main-color;
-$button-color: $cyber-yellow;
+$button-color: $saffron;
+$light-text-color: $baby-powder;
+$dark-text-color: $black-coffee;
 
 //////////////////////////////////////////////
 

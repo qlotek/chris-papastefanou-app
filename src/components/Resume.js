@@ -163,50 +163,50 @@ const Resume = () => {
 
           <div className="cols cols-three">
             <div>
-              <i class="fas fa-industry fa-2x"></i>
+              <i className="fas fa-industry fa-2x"></i>
               <br /> Manufacturing
             </div>
             <div>
-              <i class="fas fa-landmark fa-2x"></i>
+              <i className="fas fa-landmark fa-2x"></i>
               <br />
               Public sector
             </div>
             <div>
-              <i class="fas fa-car fa-2x"></i>
+              <i className="fas fa-car fa-2x"></i>
               <br />
               Automotive
             </div>
           </div>
           <div className="cols cols-three">
             <div>
-              <i class="fas fa-dice fa-2x"></i>
+              <i className="fas fa-dice fa-2x"></i>
               <br />
               Gaming
             </div>
             <div>
-              <i class="fas fa-film fa-2x"></i>
+              <i className="fas fa-film fa-2x"></i>
               <br />
               Media
             </div>
             <div>
-              <i class="fas fa-briefcase-medical fa-2x"></i> <br />
+              <i className="fas fa-briefcase-medical fa-2x"></i> <br />
               Medical
             </div>
           </div>
 
           <div className="cols cols-three">
             <div>
-              <i class="fas fa-piggy-bank fa-2x"></i>
+              <i className="fas fa-piggy-bank fa-2x"></i>
               <br />
               Finance
             </div>
             <div>
-              <i class="fas fa-shipping-fast fa-2x"></i>
+              <i className="fas fa-shipping-fast fa-2x"></i>
               <br />
               Logistics
             </div>
             <div>
-              <i class="fas fa-bus-alt fa-2x"></i> <br />
+              <i className="fas fa-bus-alt fa-2x"></i> <br />
               Transportation
             </div>
           </div>
@@ -252,33 +252,33 @@ const Resume = () => {
           <h2>Spare time</h2>
           <div className="cols cols-three">
             <div>
-              <i class="fas fa-dumbbell fa-2x"></i>
+              <i className="fas fa-dumbbell fa-2x"></i>
               <br /> Lifting things
             </div>
             <div>
-              <i class="fas fa-swimmer fa-2x"></i>
+              <i className="fas fa-swimmer fa-2x"></i>
               <br />
               Being in the water
             </div>
             <div>
-              <i class="fas fa-book-open fa-2x"></i>
+              <i className="fas fa-book-open fa-2x"></i>
               <br />
               Reading
             </div>
           </div>
           <div className="cols cols-three">
             <div>
-              <i class="fas fa-hand-rock fa-2x"></i>
+              <i className="fas fa-hand-rock fa-2x"></i>
               <br />
               Swinging at things
             </div>
             <div>
-              <i class="fas fa-pepper-hot fa-2x"></i>
+              <i className="fas fa-pepper-hot fa-2x"></i>
               <br />
               International Cooking
             </div>
             <div>
-              <i class="fas fa-laptop fa-2x"></i> <br />
+              <i className="fas fa-laptop fa-2x"></i> <br />
               Writing
             </div>
           </div>
